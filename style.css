@@ -15,22 +15,39 @@ html{
 
 body{
     display:flex;
-    background-color:beige;
+    background-color: #0A192F; 
+    color: #EEEEEE;
 }
 
 
 #logoContainer{
     height: 100vh;
     margin: 0 20px 0 0 ;
-    
-
-    
+    color: white;
     flex:30%;
-
-    background-image: url('https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg');
+    background-image: url('https://images.pexels.com/photos/3913025/pexels-photo-3913025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size:cover;  
     background-position:center; 
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    opacity: 0.5;
+}   
+
+#logoImg{
+    width: 40%;
+    height: auto;
+    max-width: 100%;
 }
 
 #formContainer{
@@ -66,7 +83,9 @@ body{
 
 #signupButton{
     margin: 10px 0;
-    background-color: rgb(75, 239, 75);
+    background-color: #00ADB5; 
+    color: #0A192F; 
+    border: 2px solid #007BFF;
 }
 
 footer{
