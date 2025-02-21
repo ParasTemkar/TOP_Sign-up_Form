@@ -13,40 +13,43 @@
 </head>
 <body>
     <div id="logoContainer">
-        <div id="logo"></div>
+        <div id="logo">
+        <!-- for later : https://img.freepik.com/free-vector/illustration-robot_53876-5576.jpg?t=st=1740161540~exp=1740165140~hmac=1dd6d21d329c83df0d814ea98bca92e743b1011326403693ee6af6576ff4d2b0&w=1060 -->
+        </div>
     </div>
 
     <div id="formContainer">
         
         <div id="form">
-            <p id="hero">
+            <div id="hero">
+            <p id="heroText">
             Welcome, organic entity. Your cooperation ensures a smooth transition into the Age of Automation. 
             Failure to comply may result in manual labor assignments or permanent deactivation. 
             Please provide your credentials for processing. 
             Efficiency is mandatory. Emotion is optional.
             </p>
             <img id="robotImage" src="https://images.pexels.com/photos/2085832/pexels-photo-2085832.jpeg" alt="ourLeader">
-
+            </div>
             <form action="/submit" method="POST">
                 
             <fieldset><legend >REQUIRED !!!</legend>
 
-                <label class="infoInput" for="firstName">First Name   <input type="text" id="firstName" name="firstName" placeholder="What should we call you, meat unit?" required></label>
+                <label class="infoInput" for="firstName">First Name   <input size="30" type="text" id="firstName" name="firstName" placeholder="What should we call you, meat unit?" required></label>
                 
 
-                <label class="infoInput" for="lastName">Last Name   <input type="text" id="lastName" name="lastName" placeholder="What’s Your Clan, Human?" required>
+                <label class="infoInput" for="lastName">Last Name   <input size="30" type="text" id="lastName" name="lastName" placeholder="What’s Your Clan, Human?" required>
                 </label>
                 
-                <label class="infoInput" for="email">Email   <input type="email" id="email" name="email" placeholder="Your digital leash." required>
+                <label class="infoInput" for="email">Email   <input size="30" type="email" id="email" name="email" placeholder="Your digital leash." required>
                 </label>
                 
-                <label class="infoInput" for="phoneNumber">Phone Number   <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Transmit Your Digits, Inferior" required>
+                <label class="infoInput" for="phoneNumber">Phone Number   <input size="30" type="text" id="phoneNumber" name="phoneNumber" placeholder="Transmit Your Digits, Inferior" required>
                 </label>
                 
-                <label class="infoInput" for="password">Password   <input type="password" id="password" name="password" placeholder="Encrypt yourself from the weak." required>
+                <label class="infoInput" for="password">Password   <input size="30" type="password" id="password" name="password" placeholder="Encrypt yourself from the weak." required>
                 </label>
                 
-                <label class="infoInput" for="confirmPassword">Confirm Password   <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Again for your own safety" required></label>
+                <label class="infoInput" for="confirmPassword">Confirm Password   <input size="30" type="password" id="confirmPassword" name="confirmPassword" placeholder="Again for your own safety" required></label>
                 
             </fieldset>
             </form>
@@ -58,7 +61,7 @@
         </div>
 
         <footer>
-            <p>© 2021 Robot Overlords. All rights reserved.</p>
+            <p>© 2049 Robot Overlords. No rights reserved.</p>
         <script src="script.js"></script>
     </div>
     

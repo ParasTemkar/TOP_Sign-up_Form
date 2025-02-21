@@ -9,19 +9,23 @@ html{
     font-family: "VT323", serif;
     font-weight: 400;
     font-style: normal;
-     
+    font-size: calc(0.8rem + 0.5vw); /*to make font size responsive */
 
 }
 
 body{
     display:flex;
+    background-color:beige;
 }
+
 
 #logoContainer{
     height: 100vh;
     margin: 0 20px 0 0 ;
+    
 
-    flex:50%;
+    
+    flex:30%;
 
     background-image: url('https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg');
     background-size:cover;  
@@ -30,20 +34,41 @@ body{
 }
 
 #formContainer{
-    flex:50%;
+    flex:70%;
 }
 
 #hero{
-    font-size: 2em;
+    font-size: 1em;
+    display:flex;
+    align-items: center;
+    align-items: center;
 }
+
 #robotImage{
-    width: 10%;
+    width: 40%;
+    height:auto;
+    max-width: 100%
 }
 
 .infoInput{
     display: block;
     margin: 10px 0;
 }
+
+#signupContainer{
+    
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-top: 20px;
+    border-top: 2px solid black;
+}
+
+#signupButton{
+    margin: 10px 0;
+    background-color: rgb(75, 239, 75);
+}
+
 footer{
     
     position:static;
