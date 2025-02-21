@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot Sign-up Form</title>
     <link rel="stylesheet" href="style.css">
+
+    <!--got from Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="logoContainer">
@@ -13,45 +18,50 @@
 
     <div id="formContainer">
         
-        <p id="hero">
-        Welcome, organic entity. Your cooperation ensures a smooth transition into the Age of Automation. 
-        Failure to comply may result in manual labor assignments or permanent deactivation. 
-        Please provide your credentials for processing. 
-        Efficiency is mandatory. Emotion is optional.
-        </p>
-        <img id="robotImage" src="" alt="ourLeader">
+        <div id="form">
+            <p id="hero">
+            Welcome, organic entity. Your cooperation ensures a smooth transition into the Age of Automation. 
+            Failure to comply may result in manual labor assignments or permanent deactivation. 
+            Please provide your credentials for processing. 
+            Efficiency is mandatory. Emotion is optional.
+            </p>
+            <img id="robotImage" src="https://images.pexels.com/photos/2085832/pexels-photo-2085832.jpeg" alt="ourLeader">
 
-        <form action="/submit" method="POST">
-            
-        <fieldset><legend>ok</legend>
+            <form action="/submit" method="POST">
+                
+            <fieldset><legend >REQUIRED !!!</legend>
 
-            <label for="firstName">First Name</label>
-            <input class="infoInput" type="text" id="firstName" name="firstName" placeholder="What should we call you, meat unit?" required>
+                <label class="infoInput" for="firstName">First Name   <input type="text" id="firstName" name="firstName" placeholder="What should we call you, meat unit?" required></label>
+                
 
-            <label for="lastName">Last Name</label>
-            <input class="infoInput" type="text" id="lastName" name="lastName" placeholder="What’s Your Clan, Human?" required>
+                <label class="infoInput" for="lastName">Last Name   <input type="text" id="lastName" name="lastName" placeholder="What’s Your Clan, Human?" required>
+                </label>
+                
+                <label class="infoInput" for="email">Email   <input type="email" id="email" name="email" placeholder="Your digital leash." required>
+                </label>
+                
+                <label class="infoInput" for="phoneNumber">Phone Number   <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Transmit Your Digits, Inferior" required>
+                </label>
+                
+                <label class="infoInput" for="password">Password   <input type="password" id="password" name="password" placeholder="Encrypt yourself from the weak." required>
+                </label>
+                
+                <label class="infoInput" for="confirmPassword">Confirm Password   <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Again for your own safety" required></label>
+                
+            </fieldset>
+            </form>
+        </div>
+            <div id="signupContainer">
+            <label for="signupButton">Sign Up here to witness our glory.</label>
+            <button id="signupButton" onclick="submitForm()">Upload Your Soul</button>
+            <p>Already a follower. Log in from <a href="https://github.com/ParasTemkar">here</a>.</p>
+        </div>
 
-            <label for="email">Email</label>
-            <input class="infoInput" type="email" id="email" name="email" placeholder="Your digital leash." required>
-
-            <label for="phoneNumber">Phone Number</label>
-            <input class="infoInput" type="text" id="phoneNumber" name="phoneNumber" placeholder="Transmit Your Digits, Inferior" required>
-
-            <label for="password">Password</label>
-            <input class="infoInput" type="password" id="password" name="password" placeholder="Encrypt yourself from the weak." required>
-
-            <label for="confirmPassword">Confirm Password</label>
-            <input class="infoInput" type="password" id="confirmPassword" name="confirmPassword" placeholder="Again for your own safety" required>
-        </fieldset>
-        </form>
+        <footer>
+            <p>© 2021 Robot Overlords. All rights reserved.</p>
+        <script src="script.js"></script>
     </div>
-    <div id="signupContainer">
-        <label for="signupButton">Sign Up here to witness our glory.</label>
-        <button id="signupButton" onclick="submitForm()">Upload Your Soul</button>
-        <p>Already a follower. Log in from <a href="https://github.com/ParasTemkar">here</a>.</p>
-    </div>
-
-    <script src="script.js"></script>
+    
 </body>
 </html>
 

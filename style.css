@@ -1,0 +1,54 @@
+/*
+.vt323-regular {
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/
+html{
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+     
+
+}
+
+body{
+    display:flex;
+}
+
+#logoContainer{
+    height: 100vh;
+    margin: 0 20px 0 0 ;
+
+    flex:50%;
+
+    background-image: url('https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg');
+    background-size:cover;  
+    background-position:center; 
+    background-repeat: no-repeat;
+}
+
+#formContainer{
+    flex:50%;
+}
+
+#hero{
+    font-size: 2em;
+}
+#robotImage{
+    width: 10%;
+}
+
+.infoInput{
+    display: block;
+    margin: 10px 0;
+}
+footer{
+    
+    position:static;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
