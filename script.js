@@ -27,3 +27,5 @@ function validateForm() {
     const errorDisplay = input.nextElementSibling;
     errorDisplay.innerText = '';
   }
+
+  

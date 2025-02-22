@@ -75,9 +75,19 @@ fieldset{
 .infoInput{
     display: block;
     margin: 10px 0;
-    
 }
 
+/* to make border of inputs responsive*/
+
+.infoInput input:focus{
+    border: 2px solid #007BFF;
+}
+.infoInput input:invalid{
+    border: 2px solid red;
+}
+.infoInput input:valid{
+    border: 2px solid #007BFF;
+}
 
 
 #signupContainer{
