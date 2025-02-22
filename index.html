@@ -12,16 +12,16 @@
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="logoContainer">
+    <div id="leftContainer">
         <div id="logo">
         <img id="logoImg" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="Odin Logo" >
         <h1 id="logoText">Robot Overlords</h1>
         </div>
     </div>
 
-    <div id="formContainer">
+    <div id="rightContainer">
         
-        <div id="form">
+        <div id="formContainer">
             <div id="hero">
             <p id="heroText">
             Welcome, organic entity. Your cooperation ensures a smooth transition into the Age of Automation. 
@@ -31,8 +31,8 @@
             </p>
             <img id="robotImage" src="https://images.pexels.com/photos/2085832/pexels-photo-2085832.jpeg" alt="ourLeader">
             </div>
-            <form action="/submit" method="POST">
-                
+
+            <form action="/README.md" method="POST">  
             <fieldset><legend >REQUIRED !!!</legend>
 
                 <label class="infoInput" for="firstName">First Name   <input size="30" type="text" id="firstName" name="firstName" placeholder="What should we call you, meat unit?" required></label>
@@ -44,7 +44,7 @@
                 <label class="infoInput" for="email">Email   <input size="30" type="email" id="email" name="email" placeholder="Your digital leash." required>
                 </label>
                 
-                <label class="infoInput" for="phoneNumber">Phone Number   <input size="30" type="text" id="phoneNumber" name="phoneNumber" placeholder="Transmit Your Digits, Inferior" required>
+                <label class="infoInput" for="phoneNumber">Phone Number   <input size="30" type="number" id="phoneNumber" name="phoneNumber" placeholder="Transmit Your Digits, Inferior" required>
                 </label>
                 
                 <label class="infoInput" for="password">Password   <input size="30" type="password" id="password" name="password" placeholder="Encrypt yourself from the weak." required>
@@ -53,19 +53,19 @@
                 <label class="infoInput" for="confirmPassword">Confirm Password   <input size="30" type="password" id="confirmPassword" name="confirmPassword" placeholder="Again for your own safety" required></label>
                 
             </fieldset>
-            </form>
-        </div>
             <div id="signupContainer">
-            <label for="signupButton">Sign Up here to witness our glory.</label>
-            <button id="signupButton" onclick="submitForm()">Upload Your Soul</button>
-            <p>Already a follower. Log in from <a href="https://github.com/ParasTemkar">here</a>.</p>
+                <label for="submit">Sign Up here to witness our glory.</label>
+                <button id="submit" name="submit" type="submit" value="Submit">Upload Your Soul</button>
+                <p>Already a follower. Log in from <a href="https://github.com/ParasTemkar">here</a>.</p>
+            </div>
+            </form>
         </div>
 
         <footer>
             <p>© 2049 Robot Overlords. No rights reserved.</p>
         <script src="script.js"></script>
     </div>
-    
+     
 </body>
 </html>
 

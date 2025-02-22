@@ -1,10 +1,4 @@
-/*
-.vt323-regular {
-    font-family: "VT323", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-*/
+
 html{
     font-family: "VT323", serif;
     font-weight: 400;
@@ -19,8 +13,7 @@ body{
     color: #EEEEEE;
 }
 
-
-#logoContainer{
+#leftContainer{
     height: 100vh;
     margin: 0 20px 0 0 ;
     color: white;
@@ -50,7 +43,14 @@ body{
     max-width: 100%;
 }
 
-#formContainer{
+#logoInfo{
+    position:static;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+#rightContainer{
     flex:70%;
 }
 
@@ -67,10 +67,18 @@ body{
     max-width: 100%
 }
 
+fieldset{
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+}
+
 .infoInput{
     display: block;
     margin: 10px 0;
+    
 }
+
+
 
 #signupContainer{
     
@@ -78,10 +86,10 @@ body{
     align-items: center;
     margin: 20px;
     padding-top: 20px;
-    border-top: 2px solid black;
+    border-top: 2px solid #007BFF;
 }
 
-#signupButton{
+#submit{
     margin: 10px 0;
     background-color: #00ADB5; 
     color: #0A192F; 
